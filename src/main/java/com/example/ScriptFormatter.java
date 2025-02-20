@@ -7,8 +7,8 @@ import java.util.*;
 public class ScriptFormatter {
 
     public static void main(String[] args) {
-        int start = 16; // 시작 번호
-        int end = 16;   // 끝 번호
+        int start = 0; // 시작 번호
+        int end = 0;   // 끝 번호
         String filePrefix = "section_"; // 파일명 접두사
         String inputDir = "./origin/"; // 원본 파일이 위치한 디렉터리
         String outputDir = "./result/"; // 결과 파일을 저장할 디렉터리
